@@ -1,0 +1,46 @@
+section{
+    background-color: #caf3e6;
+}
+
+.futer{
+    display: flex;
+    margin-left: 50px;
+
+    &__head{
+        width: 380px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 45px;
+        line-height: 67px;
+        color: #021206;
+    }
+
+    &__text{
+        width: 480px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 160%;
+        color: #021206;
+        opacity: 0.7;
+    }
+
+    &__btn{
+        padding: 15px 33px;
+        background-color: #F44545;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 160%;
+        color: #FFFFFF;
+        border-radius: 10px;
+        border: none;
+        margin-bottom: 20px;
+    }
+
+    &__right{
+        margin-top: 50px;
+        margin-left: 50px;
+    }
+
+}
